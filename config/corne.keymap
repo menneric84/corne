@@ -80,14 +80,5 @@
                                                   &trans         &trans             &trans           &trans         &trans             &trans
             >;
         };
-
-        layer_3 {
-            bindings = <
-&kp TAB        &kp Q  &kp W  &kp F   &kp P   &kp B     &kp J   &kp L   &kp U                &kp Y            &as LS(SEMI) SEMI  &as LS(MINUS) MINUS
-&kp ESCAPE     &kp A  &kp R  &kp S   &kp T   &kp G     &kp M   &kp N   &kp E                &kp I            &kp O              &as LS(APOS) APOS
-&kp RIGHT_GUI  &kp Z  &kp X  &kp C   &kp D   &kp V     &kp K   &kp H   &as LS(COMMA) COMMA  &as LS(DOT) DOT  &as LS(FSLH) FSLH  &as LS(EQUAL) EQUAL
-                             &trans  &trans  &trans    &trans  &trans  &trans
-            >;
-        };
     };
 };
